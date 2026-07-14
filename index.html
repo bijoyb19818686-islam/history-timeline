@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>History Timeline</h1>
+
+        <form id="eventForm">
+
+            <input
+                type="number"
+                id="year"
+                placeholder="Year (e.g. 1971)"
+                required
+            >
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Event Title"
+                required
+            >
+
+            <textarea
+                id="description"
+                placeholder="Event Description"
+                rows="4"
+                required
+            ></textarea>
+
+            <button type="submit">Add Event</button>
+
+        </form>
+
+        <hr>
+
+        <h2>Timeline</h2>
+
+        <div id="timeline"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
