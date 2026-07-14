@@ -1,76 +1,42 @@
-<!DOCTYPE html>
+হুম <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History Timeline</title>
-    <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>History Timeline</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-    <div class="container">
-        <h1>History Timeline</h1>
+<div class="container">
 
-        <form id="eventForm">
+<h1>History Timeline</h1>
 
-            <input
-                type="number"
-                id="year"
-                placeholder="Year (e.g. 1971)"
-                required
-            >
+<form id="eventForm">
 
-            <input
-                type="text"
-                id="title"
-                placeholder="Event Title"
-                required
-            >
+<input type="number" id="year" placeholder="Year (e.g. 1971)" required>
 
-            <textarea
-                id="description"
-                placeholder="Event Description"
-                rows="4"
-                required
-            ></textarea>
+<input type="text" id="title" placeholder="Event Title" required>
 
-            <button type="submit">Add Event</button>
+<textarea id="description" placeholder="Event Description" rows="5" required></textarea>
 
-        </form>
+<button type="submit">Add Event</button>
 
-        <hr>
+</form>
 
-        <h2>Timeline</h2>
+<hr>
 
-        <div id="timeline"></div>
+<h2>Timeline</h2>
 
-    </div>
+<div id="timeline"></div>
 
-    <script src="script.js"></script>
+</div>
 
-    <div class="container">
-
-    <h1>History Timeline</h1>
-
-    <form id="eventForm">
-
-        <input type="date" id="date" required>
-
-        <input type="text" id="title" placeholder="Event Title" required>
-
-        <textarea id="description"
-        placeholder="Event Description"
-        rows="5"></textarea>
-
-        <button type="submit">Add Event</button>
-
-    </form>
-
-    <hr>
-
-    <div id="timeline"></div>
-
-    </div>
+<script src="script.js"></script>
 
 </body>
 </html>
